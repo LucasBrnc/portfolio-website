@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "mersad-bold";
+  src: url("../public/fonts/MersadExtraBold.ttf");
+  font-family: "mersad-rg";
+  src: url("../public/fonts/MersadRegular.ttf");
+  font-family: "mersad-light";
+  src: url("../public/fonts/MersadThin.ttf");
+}
