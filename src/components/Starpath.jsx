@@ -7,8 +7,7 @@ const Starpath = () => {
 
   useEffect(() => {
     let scene, camera, renderer;
-
-    let LINE_COUNT = 800;
+    let LINE_COUNT = 1000;
     let geom = new THREE.BufferGeometry();
 
     geom.setAttribute(
@@ -34,7 +33,7 @@ const Starpath = () => {
       );
       camera.position.z = 200;
       renderer = new THREE.WebGL1Renderer({ antialias: true });
-      renderer.setSize(window.innerWidth, window.innerHeight);
+      renderer.setSize(window.innerWidth, window.innerHeight * 0.80);
       //   document.body.appendChild(renderer.domElement);
       mountRef.current.appendChild(renderer.domElement);
 
@@ -63,7 +62,7 @@ const Starpath = () => {
     function onWindowResize() {
       camera.aspect = window.innerWidth / window.innerHeight;
       camera.updateProjectionMatrix();
-      renderer.setSize(window.innerWidth, window.innerHeight);
+      renderer.setSize(window.innerWidth, window.innerHeight  * 0.80);
     }
 
     function animate() {

@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         mersadBold: ["mersad-bold", "sans-serif"],
-        mersadRg: ["mersad-rg", "sans-serif"],
+        mersadRegular: ["mersad-regular", "sans-serif"],
         mersadLight: ["mersad-light", "sans-serif"],
 
       },

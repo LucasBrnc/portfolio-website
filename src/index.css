@@ -4,9 +4,14 @@
 
 @font-face {
   font-family: "mersad-bold";
-  src: url("../public/fonts/MersadExtraBold.ttf");
-  font-family: "mersad-rg";
-  src: url("../public/fonts/MersadRegular.ttf");
+  src: url("../fonts/MersadExtraBold.ttf");
+}
+@font-face {
+  font-family: "mersad-regular";
+  src: url("../fonts/MersadRegular.ttf");
+}
+
+@font-face {
   font-family: "mersad-light";
-  src: url("../public/fonts/MersadThin.ttf");
+  src: url("../fonts/MersadThin.ttf");
 }
